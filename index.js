@@ -6,7 +6,7 @@ export function die(message = "Fatal Error") {
             console.error(message, "\n\nDied at:", match[1]);
         }
         else {
-            console.error(message, "Died at (location unknown)");
+            console.error(message, "\n\nDied at (location unknown)");
         }
         throw error;
     })();

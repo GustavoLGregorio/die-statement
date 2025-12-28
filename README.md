@@ -18,13 +18,11 @@ function die(message = "Fatal Error") {
     return (() => {
         const error = new Error();
         const match = error.stack?.match(/^(?!die).*@(.*:\d+:\d+)$/m);
-
         if (match) {
-            console.log(message, "\n\nDied at:", match[1]);
+            console.error(message, "\n\nDied at:", match[1]);
         } else {
-            console.log(message, "Died at (location unknown)");
+            console.error(message, "\n\nDied at (location unknown)");
         }
-
         throw error;
     })();
 }
