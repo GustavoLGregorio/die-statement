@@ -1,6 +1,6 @@
 {
     "name": "die-statement",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A simple and easy way to kill any application whenever you want, be it on a new line or as an inline statement!",
     "keywords": [
         "die",
