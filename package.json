@@ -1,0 +1,46 @@
+{
+    "name": "die-statement",
+    "version": "1.0.0",
+    "description": "A simple and easy way to kill any application whenever you want, be it on a new line or as an inline statement!",
+    "keywords": [
+        "die",
+        "error",
+        "throw",
+        "fatal",
+        "exit",
+        "assert",
+        "inline",
+        "statement",
+        "fail",
+        "crash",
+        "stop",
+        "php-die",
+        "error-handling",
+        "guard",
+        "fallback",
+        "one-liner",
+        "utility",
+        "debugging",
+        "stack-trace",
+        "fatal-guard"
+    ],
+    "author": "Gustavo Luiz Gregorio",
+    "homepage": "https://github.com/GustavoLGregorio/die-statement#readme",
+    "bugs": {
+        "url": "https://github.com/GustavoLGregorio/die-statement/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GustavoLGregorio/die-statement.git"
+    },
+    "license": "MIT",
+    "type": "commonjs",
+    "main": "index.js",
+    "files": [
+        "index.js",
+        "index.d.ts",
+        "LICENSE",
+        "README.md",
+        "package.json"
+    ]
+}
